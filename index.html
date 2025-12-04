@@ -27,6 +27,11 @@
                 document.querySelector('#hello').style.fontSize = this.value + 'px';
             });
 
+             // 5) Změna fontu
+            document.querySelector('#font-select').addEventListener('change', function () {
+                document.querySelector('#hello').style.fontFamily = this.value;
+            });
+
             // 4) Změna pozadí stránky
             document.querySelector('#background-select').addEventListener('change', function () {
                 document.body.style.backgroundColor = this.value;
@@ -61,6 +66,15 @@
         <option value="50">50px</option>
         <option value="60">60px</option>
         <option value="70">70px</option>
+    </select>
+    
+    <h3>Vyber font:</h3>
+    <select id="font-select">
+        <option value="Arial" selected>Arial</option>
+        <option value="'Times New Roman'">Times New Roman</option>
+        <option value="Comic Sans MS">Comic Sans</option>
+        <option value="Georgia">Georgia</option>
+        <option value="Courier New">Courier New</option>
     </select>
 
     <h3>Vyber barvu pozadí:</h3>
