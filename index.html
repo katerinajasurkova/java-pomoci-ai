@@ -37,6 +37,11 @@
             document.querySelector('#background-select').addEventListener('change', function () {
                 document.body.style.backgroundColor = this.value;
             });
+
+            // 6) Změna pozadí kontejneru  <-- NOVÉ
+            document.querySelector('#container-bg').addEventListener('change', function () {
+                document.querySelector('.container').style.backgroundColor = this.value;
+            });
         });
     </script>
 
@@ -77,6 +82,15 @@
         <option value="Comic Sans MS">Comic Sans</option>
         <option value="Georgia">Georgia</option>
         <option value="Courier New">Courier New</option>
+    </select>
+
+    <h3>Vyber pozadí okna:</h3>
+    <select id="container-bg">
+        <option value="white" selected>Bílé</option>
+        <option value="#fef3c7">žluté</option>
+        <option value="#e0f2fe">modré</option>
+        <option value="#e7ffe7">zelené</option>
+        <option value="#f3e8ff">fialové</option>
     </select>
 
     <h3>Vyber barvu pozadí:</h3>
