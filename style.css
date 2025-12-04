@@ -12,7 +12,7 @@ body {
 /* Kontejner s ovládacími prvky */
 .container {
     background: white;
-    padding: 30px 50px;
+    padding: 50px 70px;
     border-radius: 12px;
     box-shadow: 0 4px 15px rgba(0,0,0,0.15);
     display: flex;
@@ -34,7 +34,7 @@ h3 {
 }
 
 h1 {
-    margin: 40px 0px 0px 0px;
+    margin: 90px 0px 0px 0px;
 }
 
 /* Selecty a input */
