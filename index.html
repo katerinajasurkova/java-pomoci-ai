@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            document.querySelector('#text-size').addEventListener('change', function () {
+                document.querySelector('#title').style.fontSize = this.value + 'px';
+            });
+        });
+    </script>
+    <title>Velikost textu</title>
+</head>
+<body>
+    <h1 id="title">Ahoj světe!</h1>
+    <select id="text-size">
+        <option value="20">20px</option>
+        <option value="30">30px</option>
+        <option value="40">40px</option>
+        <option value="50">50px</option>
+    </select>
+</body>
+</html>
