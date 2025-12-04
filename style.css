@@ -33,6 +33,10 @@ h3 {
     color: #222;
 }
 
+h1 {
+    margin: 40px 0px 0px 0px;
+}
+
 /* Selecty a input */
 select, input {
     padding: 10px;
